@@ -1,4 +1,4 @@
-# egg-socket.io
+# egg-socket.io-v4.8.1
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
