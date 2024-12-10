@@ -1,4 +1,4 @@
-# egg-socket.io-v4.8.1
+# egg-socket.io-v4.x
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -25,7 +25,7 @@ egg 框架的 socket.io 插件
 ## 安装
 
 ```bash
-$ npm i egg-socket.io-v4.8.1 --save
+$ npm i egg-socket.io-v4.x --save
 ```
 
 ## 环境要求
@@ -41,7 +41,7 @@ $ npm i egg-socket.io-v4.8.1 --save
 // {app_root}/config/plugin.js
 exports.io = {
   enable: true,
-  package: "egg-socket.io-v4.8.1",
+  package: "egg-socket.io-v4.x",
 };
 ```
 

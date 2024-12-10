@@ -1,6 +1,6 @@
 {
-  "name": "egg-socket.io-v4.8.1",
-  "version": "1.0.0",
+  "name": "egg-socket.io-v4.x",
+  "version": "1.0.1",
   "description": "egg plugin for socket.io-v4.x.x",
   "eggPlugin": {
     "name": "io",
@@ -14,7 +14,7 @@
     "egg-plugin",
     "socket.io",
     "websocket",
-    "egg-socket.io-v4.8.1"
+    "egg-socket.io-v4.x"
   ],
   "dependencies": {
     "debug": "^4.1.0",

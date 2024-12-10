@@ -1,4 +1,4 @@
-# egg-socket.io-v4.8.1
+# egg-socket.io-v4.x
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -25,7 +25,7 @@ egg plugin for socket.io
 ## Install
 
 ```bash
-$ npm i egg-socket.io-v4.8.1 --save
+$ npm i egg-socket.io-v4.x --save
 ```
 
 ## Requirements
@@ -41,7 +41,7 @@ Change `${app_root}/config/plugin.js` to enable Socket.IO plugin:
 // {app_root}/config/plugin.js
 exports.io = {
   enable: true,
-  package: "egg-socket.io-v4.8.1",
+  package: "egg-socket.io-v4.x",
 };
 ```
 
