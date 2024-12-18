@@ -85,14 +85,13 @@ exports.io = {
 
 Because of socket.io's design, the multi process socket.io server must work at `sticky` mode.
 
-So, you must start cluster server with `sticky` set to true, otherwise it will cause handshake exception.
+So, you must start cluster server with `sticky` and `--worket=1` set to true, otherwise it will cause handshake exception.
 
-```bash
+````bash
 $ # modify your package.json - npm scripts
 $ egg-bin dev --sticky
-$ egg-scripts start --sticky
-```
-
+$ egg-scripts start --sticky --worket=1
+##
 which will start egg cluster with:
 
 ```js
@@ -100,7 +99,7 @@ startCluster({
   sticky: true,
   ...
 });
-```
+````
 
 ### Nginx Conf
 

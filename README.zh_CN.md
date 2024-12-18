@@ -85,12 +85,12 @@ exports.io = {
 
 由于 Socket.IO 的设计缘故，多进程的 Socket.IO 服务必须在 `sticky` 模式下才能工作，否则会抛出握手异常。
 
-所以，必须开启 `sticky` 模式：
+所以，必须开启 `sticky` 模式 和 启动一个线程 `--worket=1`
 
 ```bash
 $ # 修改 package.json 对应的 npm scripts
 $ egg-bin dev --sticky
-$ egg-scripts start --sticky
+$ egg-scripts start --sticky --worket=1
 ```
 
 这两个脚本都会使框架启动 cluster 时使用 `sticky` 模式
